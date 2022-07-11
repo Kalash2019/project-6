@@ -1,0 +1,29 @@
+:root{
+    --White: hsl(0, 89%, 4%);
+    --light-gray: hsla(215, 39%, 12%, 0.5);
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: white;
+    color: black;
+  }
+.container{
+    height: 100px;
+    width: auto;
+    font-size: 20px;
+    font-style: italic;
+    align-items: baseline;
+}
+table{
+  float: left;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+}
